@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="QuizLuis">
+<meta name="theme-color" content="#1B1033">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<title>QuizLuis — Matemática Difícil</title>
+<style>
+  :root{
+    --board:#1B1033;
+    --chalk:#EFE9F7;
+    --paper:#F8F4E9;
+    --gold:#F0B429;
+    --gold-dark:#C9891A;
+    --coral:#E4572E;
+    --ink:#1F2A22;
+    --line:rgba(239,233,247,0.14);
+    --c-alg:#4C6FE7;
+    --c-pot:#C9891A;
+    --c-num:#2FA39B;
+    --c-perc:#3E9358;
+    --c-prop:#8E4FBF;
+    --c-seq:#D6558C;
+    --c-est:#2E8FB0;
+    --c-geo:#D1495B;
+    --c-port:#4C6FE7;
+    --c-met:#3E9358;
+    --c-leg:#8E4FBF;
+    --c-all:#F0B429;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+  html,body{height:100%;}
+  body{
+    margin:0; min-height:100vh;
+    overscroll-behavior-y:none; -webkit-overflow-scrolling:touch;
+    background:
+      radial-gradient(ellipse at 15% -10%, rgba(255,255,255,0.06), transparent 45%),
+      radial-gradient(ellipse at 90% 105%, rgba(255,255,255,0.05), transparent 42%),
+      var(--board);
+    color:var(--chalk);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display:flex; justify-content:center;
+    padding: max(16px, env(safe-area-inset-top))
+             max(14px, env(safe-area-inset-right))
+             max(16px, env(safe-area-inset-bottom))
+             max(14px, env(safe-area-inset-left));
+  }
+  button{ font-family:inherit; -webkit-appearance:none; appearance:none; touch-action:manipulation; }
+  *{ -webkit-touch-callout:none; }
+
+  .app{ width:100%; max-width:480px; display:flex; flex-direction:column; min-height: calc(100vh - 30px); }
+  header{ display:flex; align-items:center; justify-content:space-between; padding:6px 2px 14px; }
+  .brand{ display:flex; flex-direction:column; line-height:1.05; }
+  .brand .eyebrow{ font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--gold); font-weight:700; }
+  .brand h1{ margin:2px 0 0; font-family:Georgia,"Times New Roman",serif; font-size:23px; font-weight:700; }
+  #soundBtn{
+    background:rgba(239,233,247,0.08); border:1px solid var(--line); color:var(--chalk);
+    width:42px; height:42px; border-radius:50%; font-size:18px;
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+  }
+  #soundBtn:active{ background:rgba(239,233,247,0.18); }
+
+  .screen{ display:none; flex:1; flex-direction:column; }
+  .screen.active{ display:flex; }
+  .scrollpane{ flex:1; overflow-y:auto; }
+
+  .chalk-underline{ width:64px; height:4px; border-radius:2px; background:var(--gold); margin:2px 0 16px; }
+  .section-label{ font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:rgba(239,233,247,0.55); margin:0 0 8px 2px; }
+
+  .cat-grid{ display:flex; flex-direction:column; gap:9px; margin-bottom:20px; }
+  .cat-card{
+    display:flex; align-items:center; gap:12px; background:var(--paper);
+    border-radius:14px; padding:13px 14px; border:2px solid transparent; cursor:pointer;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  }
+  .cat-card.active{ border-color:var(--gold); }
+  .cat-dot{ width:38px; height:38px; min-width:38px; border-radius:11px; display:flex; align-items:center; justify-content:center; font-size:18px; }
+  .cat-info{ flex:1; color:var(--ink); }
+  .cat-info .t{ font-weight:800; font-size:14px; }
+  .cat-info .s{ font-size:11.5px; color:#5a6a5d; margin-top:1px; }
+  .cat-check{ width:22px; height:22px; border-radius:50%; border:2px solid rgba(23,59,46,0.25); }
+  .cat-card.active .cat-check{ border-color:var(--gold-dark); background:var(--gold); }
+
+  .qty-row{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px; }
+  .qty-pill{
+    flex:1; min-width:70px; text-align:center; padding:12px 6px; border-radius:12px;
+    background:rgba(239,233,247,0.07); border:2px solid var(--line); color:var(--chalk);
+    font-weight:800; font-size:14px; cursor:pointer;
+  }
+  .qty-pill small{ display:block; font-weight:600; font-size:9.5px; text-transform:uppercase; letter-spacing:.04em; color:rgba(239,233,247,0.6); margin-top:2px; }
+  .qty-pill.active{ background:var(--gold); border-color:var(--gold); color:#26200a; }
+  .qty-pill.active small{ color:#4a3a08; }
+
+  .start-note{
+    background: rgba(239,233,247,0.06); border:1px solid var(--line); border-radius:14px;
+    padding:13px 15px; font-size:12.5px; line-height:1.5; color:rgba(239,233,247,0.78); margin-bottom:18px;
+  }
+
+  button.primary{
+    width:100%; padding:15px; border:none; border-radius:12px;
+    background: linear-gradient(180deg, var(--gold), var(--gold-dark));
+    color:#26200a; font-size:16px; font-weight:800; cursor:pointer;
+    box-shadow: 0 8px 18px rgba(240,180,41,0.25);
+  }
+  button.primary:active{ transform: translateY(1px); }
+  .footnote{ text-align:center; font-size:11px; color:rgba(239,233,247,0.4); margin-top:14px; line-height:1.5; }
+
+  /* QUIZ */
+  .progress-wrap{ margin-bottom:14px; }
+  .progress-top{ display:flex; justify-content:space-between; align-items:baseline; font-size:12px; color:rgba(239,233,247,0.7); margin-bottom:7px; }
+  .progress-top b{ color:var(--gold); font-size:13px; }
+  .progress-track{ height:8px; border-radius:6px; background:rgba(239,233,247,0.12); overflow:hidden; }
+  .progress-fill{ height:100%; border-radius:6px; background: linear-gradient(90deg, var(--gold-dark), var(--gold)); width:0%; transition: width .3s ease; }
+
+  .module-chip{
+    align-self:flex-start; font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase;
+    color:#fff; padding:5px 10px; border-radius:999px; margin-bottom:12px;
+  }
+
+  .q-card{
+    background:var(--paper); color:var(--ink); border-radius:16px; padding:22px 20px 18px;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.3); flex:1; display:flex; flex-direction:column;
+  }
+  .q-text{
+    font-family: Georgia,"Times New Roman",serif; font-size:18px; line-height:1.45; font-weight:700;
+    margin:0 0 18px; white-space:pre-line;
+  }
+  .options{ display:flex; flex-direction:column; gap:10px; }
+  .opt{
+    text-align:left; padding:13px 14px; border-radius:11px; border:1.5px solid rgba(23,59,46,0.18);
+    background:#fff; color:var(--ink); font-size:15px; display:flex; align-items:center; gap:10px; cursor:pointer;
+  }
+  .opt .letter{
+    width:26px; height:26px; min-width:26px; border-radius:50%; background:rgba(23,59,46,0.08);
+    display:flex; align-items:center; justify-content:center; font-weight:800; font-size:12.5px; color:#2b4a3a;
+  }
+  .opt:active{ background:rgba(23,59,46,0.05); }
+  .opt.correct{ background:#E9F6EC; border-color:#3E9358; }
+  .opt.correct .letter{ background:#3E9358; color:#fff; }
+  .opt.wrong{ background:#FBEAE6; border-color:var(--coral); }
+  .opt.wrong .letter{ background:var(--coral); color:#fff; }
+  .opt.disabled{ pointer-events:none; opacity:.55; }
+  .opt.disabled.correct, .opt.disabled.wrong{ opacity:1; }
+
+  .explain{ margin-top:16px; padding:12px 13px; border-radius:11px; font-size:13.5px; line-height:1.5; display:none; }
+  .explain.show{ display:block; }
+  .explain.ok{ background:#E9F6EC; color:#25522F; }
+  .explain.no{ background:#FBEAE6; color:#7A2A18; }
+
+  .next-btn{ margin-top:16px; display:none; }
+  .next-btn.show{ display:block; }
+
+  .quit-row{ text-align:center; margin-top:14px; }
+  .quit-link{ background:none; border:none; color:rgba(239,233,247,0.5); font-size:12.5px; cursor:pointer; text-decoration:underline; }
+
+  /* RESULT */
+  .result-card{
+    background:var(--paper); color:var(--ink); border-radius:18px; padding:28px 22px; text-align:center;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.35); margin-top:10px;
+  }
+  .medal{ font-size:44px; margin-bottom:6px; }
+  .result-card h2{ font-family:Georgia,serif; font-size:19px; margin:0 0 4px; }
+  .cat-label{ font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--gold-dark); margin-bottom:6px; }
+  .score-big{ font-family:Georgia,serif; font-size:44px; font-weight:800; color:var(--gold-dark); margin:8px 0 2px; }
+  .score-sub{ font-size:13px; color:#5a6a5d; margin-bottom:20px; }
+  .breakdown{ display:flex; gap:10px; margin-bottom:20px; }
+  .bd{ flex:1; background:rgba(23,59,46,0.06); border-radius:12px; padding:12px 8px; }
+  .bd .n{ font-size:18px; font-weight:800; font-family:Georgia,serif; }
+  .bd.hit .n{ color:#3E9358; }
+  .bd.miss .n{ color:var(--coral); }
+  .bd .l{ font-size:9.5px; text-transform:uppercase; letter-spacing:.05em; color:#5a6a5d; margin-top:2px;}
+  .msg{ font-size:13.5px; color:#3c4a3f; margin-bottom:18px; line-height:1.5; }
+  .btn-row{ display:flex; gap:10px; }
+  button.secondary{
+    flex:1; padding:14px; border-radius:12px; border:1.5px solid rgba(23,59,46,0.2);
+    background:transparent; color:#2b4a3a; font-weight:700; font-size:14px; cursor:pointer;
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <header>
+    <div class="brand">
+      <span class="eyebrow">Concurso MED · Todas as matérias · Difícil</span>
+      <h1>QuizLuis</h1>
+    </div>
+    <button id="soundBtn" aria-label="Som">🔊</button>
+  </header>
+
+  <!-- START -->
+  <section id="startScreen" class="screen active">
+    <div class="scrollpane">
+      <div class="chalk-underline"></div>
+
+      <p class="section-label">Escolha a área</p>
+      <div class="cat-grid" id="catGrid"></div>
+
+      <p class="section-label">Quantas perguntas?</p>
+      <div class="qty-row" id="qtyRow"></div>
+
+      <div class="start-note">Cada exercício é <b>gerado na hora</b>, nunca sempre igual: em Matemática, equações com parênteses e frações, sistemas, equação do 2.º grau, potenciação, percentagens inversas, juros, regra de três composta, progressões. Em Português, funções sintáticas, concordância, plural irregular, regência e orações subordinadas. Em Metodologia, teorias da aprendizagem e avaliação. Em Legislação, factos da Lei de Bases e da ética docente. Tudo em nível difícil.</div>
+
+    </div>
+    <button class="primary" id="startBtn">Começar</button>
+    <p class="footnote">Toque no ícone de som para ligar/desligar os efeitos sonoros.<br>Funciona offline, no Android e no iPhone.</p>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quizScreen" class="screen">
+    <div class="progress-wrap">
+      <div class="progress-top">
+        <span>Pergunta <b id="qIndex">1</b>/<span id="qTotal">--</span></span>
+        <span>Pontos: <b id="qScore">0</b></span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+
+    <span class="module-chip" id="moduleChip">MÓDULO</span>
+
+    <div class="q-card">
+      <p class="q-text" id="qText"></p>
+      <div class="options" id="optionsWrap"></div>
+      <div class="explain" id="explainBox"></div>
+      <button class="primary next-btn" id="nextBtn">Próxima pergunta →</button>
+    </div>
+    <div class="quit-row"><button class="quit-link" id="quitBtn">Terminar e voltar ao início</button></div>
+  </section>
+
+  <!-- RESULT -->
+  <section id="resultScreen" class="screen">
+    <div class="result-card">
+      <div class="medal" id="medal">🎓</div>
+      <div class="cat-label" id="catLabel"></div>
+      <h2 id="resultTitle">Resultado</h2>
+      <div class="score-big"><span id="resultPct">0</span>%</div>
+      <div class="score-sub" id="resultRaw">0 de 0 corretas</div>
+      <div class="breakdown">
+        <div class="bd hit"><div class="n" id="hitCount">0</div><div class="l">Acertos</div></div>
+        <div class="bd miss"><div class="n" id="missCount">0</div><div class="l">Erros</div></div>
+      </div>
+      <p class="msg" id="resultMsg"></p>
+      <div class="btn-row">
+        <button class="secondary" id="reviewBtn">Ver erros</button>
+        <button class="primary" id="retryBtn" style="flex:1;">Repetir</button>
+      </div>
+      <button class="secondary" id="homeBtn" style="width:100%; margin-top:10px;">Escolher outra área</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+// ================= MOTOR GERADOR DE EXERCÍCIOS =================
+function ri(min, max){ return Math.floor(Math.random()*(max-min+1))+min; }
+function pick(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+function fmt(n){
+  if(Number.isInteger(n)) return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  return n.toFixed(1).replace('.',',');
+}
+function fmtKz(n){ return fmt(n) + " Kz"; }
+const SUP = {'0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹','-':'⁻'};
+function sup(n){ return String(n).split('').map(c=>SUP[c]!==undefined?SUP[c]:c).join(''); }
+
+function buildOptions(correct, distractorFn, formatFn){
+  formatFn = formatFn || (x=>fmt(x));
+  const set = new Set([correct]);
+  let guard = 0;
+  while(set.size < 4 && guard < 60){
+    guard++;
+    const d = distractorFn();
+    if(d === undefined || d === null || Number.isNaN(d)) continue;
+    if(!set.has(d)) set.add(d);
+  }
+  let filler = correct;
+  while(set.size < 4){
+    filler = filler + (set.size%2===0? 1 : -1) * (1+set.size);
+    if(!set.has(filler)) set.add(filler);
+  }
+  const arr = shuffle(Array.from(set));
+  const oStr = arr.map(formatFn);
+  const c = oStr.indexOf(formatFn(correct));
+  return {o:oStr, c};
+}
+
+function genEqParen(){
+  let a,d;
+  do{ a = ri(2,7); d = ri(2,7); }while(a===d);
+  const b = ri(1,9), e = ri(1,9), c = ri(1,15);
+  const x0 = ri(-9,9) || 3;
+  const f = a*(x0+b) - c - d*(x0-e);
+  const q = `Resolva a equação: ${a}(x + ${b}) − ${c} = ${d}(x − ${e}) + ${f}`;
+  const opts = buildOptions(x0, ()=> x0 + pick([-3,-2,-1,1,2,3,4,-4]));
+  return {cat:"alg", m:"Equações do 1.º Grau", q, o:opts.o, c:opts.c,
+    e:`Distribuindo: ${a}x + ${a*b} − ${c} = ${d}x − ${d*e} + ${f}. Isolando x: (${a}−${d})x = ${-d*e+f-a*b+c} → x = ${x0}.`};
+}
+function genEqFrac(){
+  const a = ri(2,6);
+  let b; do{ b = ri(2,6); }while(b===a);
+  const k = ri(2,9);
+  const x0 = k*a*b;
+  const c = k*(b-a);
+  const q = `Resolva a equação: x/${a} − x/${b} = ${c}`;
+  const opts = buildOptions(x0, ()=> x0 + pick([-a*b,-2*a,2*a,a*b,-b,b,ri(-20,20)]));
+  return {cat:"alg", m:"Equações com Frações", q, o:opts.o, c:opts.c,
+    e:`Multiplicando tudo por ${a*b} (mmc dos denominadores): ${b}x − ${a}x = ${c*a*b} → ${b-a}x = ${c*a*b} → x = ${x0}.`};
+}
+function genQuadratic(){
+  const rp = ri(1,9);
+  const rn = -ri(1,9);
+  const b = -(rp+rn);
+  const c = rp*rn;
+  const bStr = b>=0? `+ ${b}x` : `− ${Math.abs(b)}x`;
+  const cStr = c>=0? `+ ${c}` : `− ${Math.abs(c)}`;
+  const q = `Determine a raiz positiva da equação: x² ${bStr} ${cStr} = 0`;
+  const opts = buildOptions(rp, ()=> pick([rp+1,rp-1,rp+2,-rn,Math.abs(rn),rp+3]));
+  return {cat:"alg", m:"Equações do 2.º Grau", q, o:opts.o, c:opts.c,
+    e:`Fatorando: (x − ${rp})(x − (${rn})) = 0 → as raízes são ${rp} e ${rn}. A raiz positiva é ${rp}.`};
+}
+function genPowerMix(){
+  const base = pick([2,3,5]);
+  const m = ri(2,6), n = ri(1,4);
+  const p = ri(1, m+n-1 > 0 ? m+n-1 : 1);
+  const realExpo = m+n-p;
+  const realVal = Math.pow(base, realExpo);
+  const q = `Simplifique e calcule: ${base}${sup(m)} × ${base}${sup(n)} ÷ ${base}${sup(p)}`;
+  const opts = buildOptions(realVal, ()=> Math.pow(base, realExpo + pick([-2,-1,1,2])));
+  return {cat:"pot", m:"Potenciação", q, o:opts.o, c:opts.c,
+    e:`Mesma base: soma/subtrai os expoentes → ${m}+${n}−${p} = ${realExpo}. Logo, ${base}${sup(realExpo)} = ${realVal}.`};
+}
+function genRootProduct(){
+  const r = ri(6,20);
+  const divisors = [];
+  for(let f=2; f<r; f++){ if(r%f===0) divisors.push(f); }
+  const f = divisors.length? pick(divisors) : 2;
+  const a = Math.round(r/f);
+  const b = r*f;
+  const q = `Simplifique: √${a} × √${b}`;
+  const opts = buildOptions(r, ()=> r + pick([-2,-1,1,2,3,-3]));
+  return {cat:"pot", m:"Radiciação", q, o:opts.o, c:opts.c,
+    e:`√${a} × √${b} = √(${a}×${b}) = √${a*b} = ${r}.`};
+}
+function genComplexExpr(){
+  const a = ri(2,9), b = ri(2,9), c = ri(2,6), e = pick([2,3,4,5]);
+  const val1 = (a+b)*c;
+  const k = ri(1,10);
+  const d = val1 - k*e;
+  const f = ri(1,9);
+  const val = k + f;
+  const dStr = d>=0? `${d}` : `(${d})`;
+  const q = `Calcule: [(${a} + ${b}) × ${c} − ${dStr}] ÷ ${e} + ${f}`;
+  const opts = buildOptions(val, ()=> val + pick([-3,-2,-1,1,2,3]));
+  return {cat:"num", m:"Expressões Numéricas", q, o:opts.o, c:opts.c,
+    e:`(${a}+${b})×${c} = ${val1}. ${val1} − ${dStr} = ${k*e}. ${k*e} ÷ ${e} = ${k}. ${k} + ${f} = ${val}.`};
+}
+function genReversePercent(){
+  const X = pick([5,10,15,20,25,30,40]);
+  const k = ri(2,60);
+  const P = 100*k;
+  const V = k*(100+X);
+  const q = `Depois de um aumento de ${X}%, um produto passou a custar ${fmtKz(V)}. Qual era o preço antes do aumento?`;
+  const opts = buildOptions(P, ()=> pick([V, Math.round(V*(100-X)/100), P+100, P-100]));
+  return {cat:"perc", m:"Percentagens", q, o:opts.o, c:opts.c,
+    e:`Se P é o preço original: P × (1 + ${X}/100) = ${fmtKz(V)} → P = ${fmtKz(V)} ÷ ${(100+X)/100} = ${fmtKz(P)}.`};
+}
+function genSimpleInterest(){
+  const i = pick([2,4,5,10,20]);
+  const t = ri(2,8);
+  const Cbase = ri(2,80);
+  const C = 100*Cbase;
+  const J = C*i*t/100;
+  const M = C+J;
+  const q = `Um capital de ${fmtKz(C)} foi aplicado a juros simples de ${i}% ao mês, durante ${t} meses. Qual é o montante final (capital + juros)?`;
+  const opts = buildOptions(M, ()=> pick([C+J-500, C+J+500, C+ (J/2), J]));
+  return {cat:"perc", m:"Juros Simples", q, o:opts.o, c:opts.c,
+    e:`Juro: J = C×i×t/100 = ${C}×${i}×${t}/100 = ${fmtKz(J)}. Montante: M = C+J = ${fmtKz(M)}.`};
+}
+function genCompoundRule(){
+  const N = ri(2,10), D = ri(4,24), H = ri(2,10);
+  let r1 = pick([1,2,3]), r2 = pick([1,2]);
+  if(r1===1 && r2===1){ r1 = pick([2,3]); }
+  const factor = r1*r2;
+  const Dadj = D - (D % factor);
+  const Dfinal = Dadj===0? factor : Dadj;
+  const M = N*r1, H2 = H*r2;
+  const D2 = Dfinal/(factor);
+  const q = `${N} operários constroem um muro em ${Dfinal} dias, trabalhando ${H} horas por dia. Trabalhando ${H2} horas por dia, quantos dias ${M} operários levariam para construir o mesmo muro?`;
+  const opts = buildOptions(D2, ()=> D2 + pick([-2,-1,1,2,3]));
+  return {cat:"prop", m:"Regra de Três Composta", q, o:opts.o, c:opts.c,
+    e:`Trabalho total constante: ${N}×${Dfinal}×${H} = ${M}×D₂×${H2} → D₂ = ${D2} dias.`};
+}
+function genSimpleRule(){
+  const X = ri(2,12), u = ri(50,900);
+  const Z = ri(2,20);
+  const Y = X*u;
+  const cost = Z*u;
+  const q = `Se ${X} kg de um produto custam ${fmtKz(Y)}, quanto custam ${Z} kg do mesmo produto?`;
+  const opts = buildOptions(cost, ()=> cost + pick([-u,u,-2*u,2*u]));
+  return {cat:"prop", m:"Regra de Três Simples", q, o:opts.o, c:opts.c,
+    e:`Preço por kg: ${fmtKz(Y)} ÷ ${X} = ${fmtKz(u)}. Para ${Z} kg: ${Z} × ${fmtKz(u)} = ${fmtKz(cost)}.`};
+}
+function genPA(){
+  const a1 = ri(-10,15), r = pick([-4,-3,-2,-1,2,3,4,5]);
+  const n = ri(6,20);
+  const an = a1 + (n-1)*r;
+  const askSum = Math.random()<0.5;
+  if(askSum){
+    const Sn = n*(a1+an)/2;
+    const q = `Numa progressão aritmética de razão ${r}, sabendo que o primeiro termo é ${a1}, calcule a soma dos primeiros ${n} termos.`;
+    const opts = buildOptions(Sn, ()=> Sn + pick([-r,r,-n,n,-2*n,2*n]));
+    return {cat:"seq", m:"Progressão Aritmética", q, o:opts.o, c:opts.c,
+      e:`aₙ = a₁+(n−1)r = ${a1}+${n-1}×${r} = ${an}. Sₙ = n(a₁+aₙ)/2 = ${n}×(${a1}+${an})/2 = ${Sn}.`};
+  } else {
+    const q = `Numa progressão aritmética de razão ${r}, sabendo que o primeiro termo é ${a1}, determine o ${n}.º termo.`;
+    const opts = buildOptions(an, ()=> an + pick([-r,r,-2*r,2*r,-1,1]));
+    return {cat:"seq", m:"Progressão Aritmética", q, o:opts.o, c:opts.c,
+      e:`aₙ = a₁ + (n−1)×r = ${a1} + ${n-1} × ${r} = ${an}.`};
+  }
+}
+function genPG(){
+  const a1 = ri(1,6), q_ = pick([2,3]);
+  const n = ri(3,6);
+  const an = a1*Math.pow(q_, n-1);
+  const q = `Numa progressão geométrica de razão ${q_}, sabendo que o primeiro termo é ${a1}, determine o ${n}.º termo.`;
+  const opts = buildOptions(an, ()=> pick([an/q_, an*q_, an+a1, an-a1]));
+  return {cat:"seq", m:"Progressão Geométrica", q, o:opts.o, c:opts.c,
+    e:`aₙ = a₁ × q^(n−1) = ${a1} × ${q_}^${n-1} = ${an}.`};
+}
+function genWeightedAvg(){
+  const weightSets = [[2,3,5],[1,4,5],[3,3,4],[2,2,6],[1,2,7]];
+  const w = pick(weightSets);
+  const v1=ri(8,20), v2=ri(8,20), v3=ri(8,20);
+  const sum = v1*w[0]+v2*w[1]+v3*w[2];
+  const total = w[0]+w[1]+w[2];
+  const media = sum/total;
+  const q = `Um aluno obteve notas ${v1}, ${v2} e ${v3}, com pesos ${w[0]}, ${w[1]} e ${w[2]} respetivamente. Qual é a média ponderada?`;
+  const opts = buildOptions(media, ()=> media + pick([-0.5,0.5,-1,1,-1.5,1.5]));
+  return {cat:"est", m:"Estatística — Média Ponderada", q, o:opts.o, c:opts.c,
+    e:`Média ponderada = (${v1}×${w[0]} + ${v2}×${w[1]} + ${v3}×${w[2]}) ÷ ${total} = ${sum} ÷ ${total} = ${fmt(media)}.`};
+}
+function genSystem(){
+  const x0 = ri(-8,8) || 2, y0 = ri(-8,8) || 3;
+  let p,q_,r,s;
+  do{
+    p = pick([1,2,3,-1,-2]); q_ = pick([1,2,3,-1,-2]);
+    r = pick([1,2,3,-1,-2]); s = pick([1,2,3,-1,-2]);
+  } while(p*s - q_*r === 0);
+  const A = p*x0 + q_*y0;
+  const B = r*x0 + s*y0;
+  const fmtEq = (co,letter)=> (co===1?'':co===-1?'−':co) + letter;
+  const eq1 = `${fmtEq(p,'x')} ${q_>=0?'+':'−'} ${Math.abs(q_)===1?'':Math.abs(q_)}y = ${A}`;
+  const eq2 = `${fmtEq(r,'x')} ${s>=0?'+':'−'} ${Math.abs(s)===1?'':Math.abs(s)}y = ${B}`;
+  const q = `Resolva o sistema de equações:\n${eq1}\n${eq2}\nQual é o valor de x?`;
+  const opts = buildOptions(x0, ()=> x0 + pick([-3,-2,-1,1,2,3]));
+  return {cat:"alg", m:"Sistemas de Equações", q, o:opts.o, c:opts.c,
+    e:`Resolvendo o sistema (por substituição ou redução), obtém-se x = ${x0} e y = ${y0}.`};
+}
+function genAgeProblem(){
+  const a = ri(4,20);
+  const X = ri(2,15);
+  const Y = 3*a + 2*X;
+  const q = `A idade de Pedro é o dobro da idade de Ana. Daqui a ${X} anos, a soma das suas idades será ${Y}. Qual é a idade atual de Ana?`;
+  const opts = buildOptions(a, ()=> a + pick([-3,-2,-1,1,2,3]));
+  return {cat:"alg", m:"Problemas de Idade", q, o:opts.o, c:opts.c,
+    e:`Ana = a, Pedro = 2a. Em ${X} anos: (a+${X}) + (2a+${X}) = ${Y} → 3a + ${2*X} = ${Y} → a = ${a}.`};
+}
+const WORK_PAIRS = [[6,3,2],[4,4,2],[12,4,3],[6,6,3],[12,6,4],[10,15,6],[8,8,4],[20,5,4],[9,18,6],[15,10,6],[24,8,6],[18,9,6],[12,12,6],[20,20,10],[16,16,8]];
+const WORK_SCENES = [
+  {a:"uma torneira",b:"outra torneira",obj:"tanque",verbo:"encher"},
+  {a:"o pintor A",b:"o pintor B",obj:"muro",verbo:"pintar"},
+  {a:"a máquina 1",b:"a máquina 2",obj:"lote de peças",verbo:"produzir"},
+];
+function genWorkRate(){
+  let pair = pick(WORK_PAIRS);
+  if(pair[0] === pair[1] && Math.random()<0.4){ pair = pick(WORK_PAIRS.filter(p=>p[0]!==p[1])); }
+  const [A,B,T] = pair;
+  const sc = pick(WORK_SCENES);
+  const q = `${sc.a.charAt(0).toUpperCase()+sc.a.slice(1)} consegue ${sc.verbo} um ${sc.obj} sozinho(a) em ${A} horas, e ${sc.b} consegue fazer o mesmo em ${B} horas. Trabalhando juntos, em quantas horas terminam o serviço?`;
+  const opts = buildOptions(T, ()=> T + pick([-2,-1,1,2,3]));
+  return {cat:"prop", m:"Trabalho Conjunto", q, o:opts.o, c:opts.c,
+    e:`Taxas somadas: 1/${A} + 1/${B} = 1/T → T = (${A}×${B})/(${A}+${B}) = ${T} horas.`};
+}
+function genGeoRectangle(){
+  const L = ri(4,30);
+  const largura = ri(2, L-1);
+  const perim = 2*(L+largura);
+  const area = L*largura;
+  const askArea = Math.random()<0.5;
+  if(askArea){
+    const q = `Um retângulo tem perímetro ${perim} m e comprimento ${L} m. Qual é a área desse retângulo?`;
+    const opts = buildOptions(area, ()=> area + pick([-L,L,-largura,largura,-10,10]));
+    return {cat:"geo", m:"Geometria", q, o:opts.o, c:opts.c,
+      e:`Perímetro: 2(C+L) = ${perim} → C+L = ${perim/2} → L = ${perim/2} − ${L} = ${largura}. Área = ${L}×${largura} = ${area} m².`};
+  } else {
+    const q = `Um retângulo tem área ${area} m² e comprimento ${L} m. Qual é o perímetro desse retângulo?`;
+    const opts = buildOptions(perim, ()=> perim + pick([-4,-2,2,4,-6,6]));
+    return {cat:"geo", m:"Geometria", q, o:opts.o, c:opts.c,
+      e:`Largura = área ÷ comprimento = ${area} ÷ ${L} = ${largura}. Perímetro = 2×(${L}+${largura}) = ${perim} m.`};
+  }
+}
+function genGeoVolume(){
+  const c = ri(3,15), lrg = ri(2,12), h = ri(2,10);
+  const vol = c*lrg*h;
+  const q = `Uma caixa de água tem ${c} m de comprimento, ${lrg} m de largura e ${h} m de altura. Qual é a sua capacidade em litros? (1 m³ = 1000 L)`;
+  const opts = buildOptions(vol*1000, ()=> (vol*1000) + pick([-1000,1000,-500,500,-2000,2000]));
+  return {cat:"geo", m:"Geometria — Volume e Capacidade", q, o:opts.o, c:opts.c,
+    e:`Volume = ${c}×${lrg}×${h} = ${vol} m³. Em litros: ${vol} × 1000 = ${fmt(vol*1000)} L.`};
+}
+
+function buildOptionsFixed(correctText, wrongTexts){
+  // usado quando as 4 opções já vêm prontas em texto (sem precisar gerar distratores)
+  const all = shuffle([correctText, ...wrongTexts]);
+  return {o: all, c: all.indexOf(correctText)};
+}
+
+// ---------- WORD BANKS ----------
+const NOMES = ["Maria","Pedro","Ana","Carlos","Sara","João","Beatriz","Miguel","Luísa","Tomás","Rosa","Domingos","Fátima","André","Isabel","Kiluanji","Nzuzi"];
+const REL = ["amigo","irmão","primo","vizinho","colega","tio","padrinho","chefe"];
+const OBJ = ["um livro","uma bicicleta","um telemóvel","umas flores","um caderno","uma bola","um relógio","uns sapatos","uma mochila"];
+const DEST = ["ao professor","à irmã","ao amigo","à vizinha","ao colega","à prima","ao diretor","à mãe"];
+const ADJ = ["cansado","feliz","nervoso","tranquilo","preocupado","entusiasmado","triste","confiante"];
+
+// ---------- PORTUGUÊS: FUNÇÕES SINTÁTICAS (procedural) ----------
+function genAposto(){
+  const nome = pick(NOMES), rel = pick(REL);
+  const q = `${nome}, meu ${rel}, chegou muito tarde à reunião.\nNa frase, a expressão "meu ${rel}" desempenha a função de:`;
+  const opts = buildOptionsFixed("Aposto", ["Vocativo","Sujeito","Objeto Direto"]);
+  return {cat:"port", m:"Funções Sintáticas", q, o:opts.o, c:opts.c,
+    e:`"meu ${rel}" explica quem é ${nome} — é um aposto, um termo explicativo do sujeito.`};
+}
+function genVocativo(){
+  const nome = pick(NOMES);
+  const q = `${nome}, venha até aqui, por favor!\nNa frase, a palavra "${nome}" desempenha a função de:`;
+  const opts = buildOptionsFixed("Vocativo", ["Sujeito","Aposto","Predicativo do Sujeito"]);
+  return {cat:"port", m:"Funções Sintáticas", q, o:opts.o, c:opts.c,
+    e:`"${nome}" chama diretamente a pessoa a quem se fala, sem função sintática na oração — é vocativo.`};
+}
+function genObjDireto(){
+  const nome = pick(NOMES), obj = pick(OBJ);
+  const q = `${nome} comprou ${obj} na loja ontem.\nNa frase, o termo "${obj}" desempenha a função de:`;
+  const opts = buildOptionsFixed("Objeto Direto", ["Objeto Indireto","Sujeito","Predicativo do Sujeito"]);
+  return {cat:"port", m:"Funções Sintáticas", q, o:opts.o, c:opts.c,
+    e:`"${obj}" completa o verbo "comprou" sem preposição obrigatória — é objeto direto.`};
+}
+function genObjIndireto(){
+  const nome = pick(NOMES), dest = pick(DEST);
+  const q = `${nome} entregou o presente ${dest}.\nNa frase, o termo "${dest}" desempenha a função de:`;
+  const opts = buildOptionsFixed("Objeto Indireto", ["Objeto Direto","Sujeito","Aposto"]);
+  return {cat:"port", m:"Funções Sintáticas", q, o:opts.o, c:opts.c,
+    e:`"${dest}" completa o verbo "entregou" através de preposição — é objeto indireto.`};
+}
+function genPredicativo(){
+  const nome = pick(NOMES), adj = pick(ADJ);
+  const q = `${nome} parecia ${adj} durante toda a reunião.\nNa frase, a palavra "${adj}" desempenha a função de:`;
+  const opts = buildOptionsFixed("Predicativo do Sujeito", ["Objeto Direto","Adjunto Adverbial","Vocativo"]);
+  return {cat:"port", m:"Funções Sintáticas", q, o:opts.o, c:opts.c,
+    e:`O verbo de ligação "parecia" liga o sujeito a uma característica — "${adj}" é predicativo do sujeito.`};
+}
+function genSujeitoComposto(){
+  const n1 = pick(NOMES); let n2; do{ n2 = pick(NOMES); }while(n2===n1);
+  const q = `Durante a tarde, ${n1} e ${n2} estudaram muito para o exame.\nQual é o sujeito desta oração?`;
+  const opts = buildOptionsFixed(`${n1} e ${n2}`, [n1, n2, "Durante a tarde"]);
+  return {cat:"port", m:"Sujeito", q, o:opts.o, c:opts.c,
+    e:`Quem pratica a ação de estudar são ${n1} e ${n2} — sujeito composto.`};
+}
+
+// ---------- PORTUGUÊS: CONCORDÂNCIA (procedural com wordbank) ----------
+const SUBST_HAVER = ["alunos","problemas","dúvidas","livros","cadeiras","erros","candidatos","documentos"];
+const LOCAIS = ["sala","escola","cidade","reunião","prova","empresa","biblioteca","turma"];
+function genConcordanciaHaver(){
+  const sub = pick(SUBST_HAVER), local = pick(LOCAIS);
+  const q = `Assinale a forma correta para completar: "___ muitos ${sub} na ${local}."`;
+  const opts = buildOptionsFixed("Havia", ["Haviam","Houveram","Vão haver"]);
+  return {cat:"port", m:"Concordância Verbal", q, o:opts.o, c:opts.c,
+    e:`O verbo "haver" no sentido de existir é impessoal — fica sempre no singular: "Havia muitos ${sub}".`};
+}
+const TEMPOS_UNIDADE = ["anos","meses","dias","semanas"];
+function genConcordanciaFazer(){
+  const n = ri(2,10), unidade = pick(TEMPOS_UNIDADE);
+  const q = `Assinale a forma correta para completar: "___ ${n} ${unidade} que trabalho nesta escola."`;
+  const opts = buildOptionsFixed("Faz", ["Fazem","Fazerem","Houveram"]);
+  return {cat:"port", m:"Concordância Verbal", q, o:opts.o, c:opts.c,
+    e:`O verbo "fazer" indicando tempo decorrido é impessoal — fica sempre no singular: "Faz ${n} ${unidade}".`};
+}
+
+// ---------- PORTUGUÊS: PLURAL IRREGULAR (tabela) ----------
+const PLURAIS = [
+  {s:"cidadão", ps:["cidadãos","cidadões","cidadães","cidadãozes"], ci:0},
+  {s:"cão", ps:["cãos","cães","cãoes","caes"], ci:1},
+  {s:"papel", ps:["papels","papéis","papeis","papelões"], ci:1},
+  {s:"farol", ps:["faróis","farols","faroles","farolos"], ci:0},
+  {s:"mel", ps:["méis","meles","mels","melis"], ci:0},
+  {s:"gás", ps:["gáses","gases","gasos","gás"], ci:1},
+  {s:"luz", ps:["luzes","luzs","luzas","luz"], ci:0},
+  {s:"nariz", ps:["narizes","narizs","narizos","nariz"], ci:0},
+  {s:"lápis", ps:["lápis","lápises","lapises","lápi"], ci:0},
+  {s:"animal", ps:["animales","animais","animals","animalões"], ci:1},
+  {s:"hotel", ps:["hoteles","hotéis","hotels","hotelões"], ci:1},
+  {s:"projétil", ps:["projétiles","projéteis","projetils","projétis"], ci:1},
+];
+function genPluralIrregular(){
+  const item = pick(PLURAIS);
+  const q = `Qual é o plural correto de "${item.s}"?`;
+  const correctText = item.ps[item.ci];
+  const wrongTexts = item.ps.filter((_,i)=>i!==item.ci);
+  const opts = buildOptionsFixed(correctText, wrongTexts);
+  return {cat:"port", m:"Flexão Nominal", q, o:opts.o, c:opts.c,
+    e:`O plural correto de "${item.s}" é "${correctText}".`};
+}
+
+// ---------- PORTUGUÊS: REGÊNCIA (tabela curada) ----------
+const REGENCIA = [
+  {frase:"Ela sempre gostou ___ música clássica.", certa:"de", erradas:["a","com","para"]},
+  {frase:"Os alunos obedeceram ___ professora sem hesitar.", certa:"à", erradas:["a","na","pela"]},
+  {frase:"O candidato aspira ___ um cargo importante no ministério.", certa:"a", erradas:["de","para","com"]},
+  {frase:"Prefiro estudar de manhã ___ estudar à noite.", certa:"a", erradas:["que","do que","com"]},
+  {frase:"O diretor informou os professores ___ nova data do exame.", certa:"da", erradas:["na","pela","à"]},
+  {frase:"Chegámos ___ escola antes das sete horas.", certa:"à", erradas:["na","pela","de"]},
+  {frase:"Ele sempre visou ___ melhores resultados.", certa:"a", erradas:["de","com","em"]},
+];
+function genRegencia(){
+  const item = pick(REGENCIA);
+  const q = `Complete corretamente: "${item.frase}"`;
+  const opts = buildOptionsFixed(item.certa, item.erradas);
+  return {cat:"port", m:"Regência Verbal e Nominal", q, o:opts.o, c:opts.c,
+    e:`A regência correta exige "${item.certa}" nesta construção: "${item.frase.replace('___', item.certa)}"`};
+}
+
+// ---------- PORTUGUÊS: ORAÇÕES / CONJUNÇÕES (tabela curada) ----------
+const CONJUNCOES = [
+  {frase:"O professor continuou a explicar, embora estivesse muito cansado.", conj:"embora", tipo:"Concessiva", erradas:["Causal","Final","Condicional"]},
+  {frase:"Os alunos não saíram, porque ainda chovia bastante.", conj:"porque", tipo:"Causal", erradas:["Concessiva","Temporal","Conclusiva"]},
+  {frase:"O professor repetiu a explicação para que todos compreendessem.", conj:"para que", tipo:"Final", erradas:["Causal","Concessiva","Conformativa"]},
+  {frase:"Caso chova amanhã, a visita de estudo será adiada.", conj:"Caso", tipo:"Condicional", erradas:["Temporal","Final","Concessiva"]},
+  {frase:"Assim que o sino tocou, os alunos saíram da sala.", conj:"Assim que", tipo:"Temporal", erradas:["Condicional","Causal","Conclusiva"]},
+  {frase:"Estudou bastante, portanto obteve uma boa nota.", conj:"portanto", tipo:"Conclusiva", erradas:["Causal","Concessiva","Final"]},
+];
+function genConjuncao(){
+  const item = pick(CONJUNCOES);
+  const q = `"${item.frase}"\nA oração introduzida por "${item.conj}" expressa uma ideia:`;
+  const opts = buildOptionsFixed(item.tipo, item.erradas);
+  return {cat:"port", m:"Orações Subordinadas", q, o:opts.o, c:opts.c,
+    e:`"${item.conj}" introduz uma ideia ${item.tipo.toLowerCase()} nesta frase.`};
+}
+
+// ---------- METODOLOGIA (tabela autor-conceito, bidirecional) ----------
+const PEDAGOGOS = [
+  {nome:"Jean Piaget", conceito:"o construtivismo, defendendo que o conhecimento é construído ativamente pelo sujeito"},
+  {nome:"Lev Vygotsky", conceito:"a Zona de Desenvolvimento Proximal e o papel central da interação social na aprendizagem"},
+  {nome:"B. F. Skinner", conceito:"o behaviorismo, baseado no reforço e na relação estímulo-resposta"},
+  {nome:"David Ausubel", conceito:"a aprendizagem significativa, ligada aos conhecimentos prévios do aluno"},
+  {nome:"Paulo Freire", conceito:"a pedagogia crítica e a educação como prática da liberdade"},
+  {nome:"John Dewey", conceito:"a aprendizagem pela ação e pela experiência (\"learning by doing\")"},
+];
+function genPedagogoAutor(){
+  const item = pick(PEDAGOGOS);
+  const outros = shuffle(PEDAGOGOS.filter(p=>p.nome!==item.nome)).slice(0,3).map(p=>p.nome);
+  const q = `Qual autor defende ${item.conceito}?`;
+  const opts = buildOptionsFixed(item.nome, outros);
+  return {cat:"met", m:"Teorias da Aprendizagem", q, o:opts.o, c:opts.c,
+    e:`${item.nome} é o autor associado a ${item.conceito}.`};
+}
+function genPedagogoConceito(){
+  const item = pick(PEDAGOGOS);
+  const outros = shuffle(PEDAGOGOS.filter(p=>p.nome!==item.nome)).slice(0,3).map(p=>p.conceito.charAt(0).toUpperCase()+p.conceito.slice(1));
+  const correta = item.conceito.charAt(0).toUpperCase()+item.conceito.slice(1);
+  const q = `O que defende principalmente ${item.nome}?`;
+  const opts = buildOptionsFixed(correta, outros);
+  return {cat:"met", m:"Teorias da Aprendizagem", q, o:opts.o, c:opts.c,
+    e:`${item.nome} defende ${item.conceito}.`};
+}
+
+const AVALIACOES = [
+  {momento:"antes do início do processo de ensino, para identificar conhecimentos prévios", tipo:"Diagnóstica"},
+  {momento:"durante o processo de ensino, para reajustar estratégias", tipo:"Formativa"},
+  {momento:"no final do processo de ensino, para classificar o desempenho", tipo:"Sumativa"},
+];
+function genAvaliacaoTipo(){
+  const item = pick(AVALIACOES);
+  const outros = AVALIACOES.filter(a=>a.tipo!==item.tipo).map(a=>a.tipo);
+  const q = `A avaliação realizada ${item.momento} chama-se:`;
+  const opts = buildOptionsFixed(item.tipo, [...outros, "Classificativa"]);
+  return {cat:"met", m:"Avaliação", q, o:opts.o, c:opts.c,
+    e:`Avaliação realizada ${item.momento} é do tipo ${item.tipo}.`};
+}
+
+const METODOLOGIA_FATOS = [
+  {p:"O principal objeto de estudo da Didática", r:"O processo de ensino-aprendizagem", erradas:["A administração escolar","A construção de infraestruturas","Apenas o comportamento do aluno"]},
+  {p:"O centro do processo educativo na pedagogia tradicional", r:"O professor", erradas:["O aluno","A comunidade","A tecnologia"]},
+  {p:"A principal função do planeamento educativo", r:"Organizar antecipadamente a ação educativa", erradas:["Impedir qualquer mudança","Substituir o papel do professor","Eliminar a avaliação"]},
+  {p:"Segundo a perspetiva construtivista, o papel do aluno", r:"Sujeito ativo que constrói o próprio conhecimento", erradas:["Recetor passivo de informações","Apenas memorizador de conteúdos","Elemento sem participação na aula"]},
+  {p:"O que deve fazer um professor perante alunos que não compreenderam a matéria", r:"Rever as estratégias e adaptar o ensino", erradas:["Continuar sem qualquer alteração","Aplicar uma sanção","Atribuir a culpa aos alunos"]},
+];
+function genMetodologiaFato(){
+  const item = pick(METODOLOGIA_FATOS);
+  const q = `${item.p} é:`;
+  const opts = buildOptionsFixed(item.r, item.erradas);
+  return {cat:"met", m:"Didática Geral", q, o:opts.o, c:opts.c,
+    e:`${item.p} é: ${item.r}.`};
+}
+
+// ---------- LEGISLAÇÃO (tabela de factos) ----------
+const LEGISLACAO_FATOS = [
+  {p:"A Lei de Bases do Sistema de Educação e Ensino de Angola", r:"Lei 17/16, alterada pela Lei 32/20", erradas:["Lei 1/90","Lei 5/10","Lei 20/25"]},
+  {p:"O principal objetivo da educação inclusiva", r:"Adaptar o ensino às necessidades de todos os alunos", erradas:["Separar os alunos com maiores dificuldades","Eliminar as diferenças entre alunos","Reduzir o nível de exigência para todos"]},
+  {p:"Um valor essencial da ética profissional docente", r:"Responsabilidade e respeito", erradas:["Negligência nas funções","Falta de preparação das aulas","Improviso permanente"]},
+  {p:"Como a legislação e a pedagogia atuais veem o aluno", r:"Como sujeito ativo do seu próprio processo de aprendizagem", erradas:["Como um recetor passivo de conteúdos","Apenas como objeto de avaliação","Como alguém sem participação nas decisões"]},
+  {p:"O papel do Ensino Primário no sistema educativo", r:"Constitui a base de toda a formação escolar seguinte", erradas:["É considerado ensino superior","É apenas uma formação profissional","É um nível de ensino opcional"]},
+  {p:"O princípio que deve guiar o júri de um concurso público", r:"Imparcialidade", erradas:["Preferência pessoal","Favorecimento de conhecidos","Desorganização no processo"]},
+  {p:"A finalidade principal da formação contínua do professor", r:"Melhorar e atualizar as suas competências profissionais", erradas:["Substituir a formação inicial","Reduzir as suas responsabilidades","Adiar a avaliação de desempenho"]},
+];
+function genLegislacaoFato(){
+  const item = pick(LEGISLACAO_FATOS);
+  const q = `${item.p} é:`;
+  const opts = buildOptionsFixed(item.r, item.erradas);
+  return {cat:"leg", m:"Legislação Educativa", q, o:opts.o, c:opts.c,
+    e:`${item.p} é: ${item.r}.`};
+}
+
+// ---------- METODOLOGIA DA MATEMÁTICA ----------
+const METOD_MAT = [
+  {p:"A abordagem mais recomendada para introduzir o conceito de fração no Ensino Primário", r:"Uso de material concreto e manipulável (ex.: divisão de objetos, discos de fração)", erradas:["Memorização direta das regras de operações com frações","Apenas exercícios repetitivos do algoritmo, sem contexto","Explicação exclusivamente teórica, sem exemplos práticos"]},
+  {p:"O papel do erro do aluno na aprendizagem da Matemática", r:"Uma oportunidade para identificar o raciocínio do aluno e reorientar o ensino", erradas:["Um motivo para punir o aluno","Algo que deve ser ignorado pelo professor","Prova de que o aluno não tem capacidade para a disciplina"]},
+  {p:"A vantagem de trabalhar situações-problema do quotidiano no ensino da Matemática", r:"Dar significado prático aos conceitos matemáticos, facilitando a compreensão", erradas:["Tornar a aula mais longa sem benefício de aprendizagem","Substituir por completo a necessidade de cálculo","Servir apenas como entretenimento, sem valor pedagógico"]},
+  {p:"A relação recomendada entre cálculo mental e algoritmo escrito no ensino da Matemática", r:"Desenvolver primeiro o cálculo mental e a compreensão, antes de fixar o algoritmo", erradas:["Ensinar o algoritmo escrito antes de qualquer outro raciocínio","Evitar completamente o cálculo mental","Ensinar os dois ao mesmo tempo sem qualquer ordem"]},
+  {p:"O uso de jogos e materiais manipuláveis (ábaco, blocos, tangram) no ensino da Matemática", r:"Facilita a construção de conceitos abstratos a partir de experiências concretas", erradas:["Distrai o aluno e deve ser evitado","Serve apenas para os alunos mais novos, sem outro propósito","Substitui a necessidade de qualquer explicação teórica"]},
+  {p:"A estratégia mais eficaz para corrigir um erro comum de cálculo numa turma", r:"Explorar o erro coletivamente, levando os alunos a perceberem onde e porquê erraram", erradas:["Corrigir sozinho no quadro sem explicar o raciocínio","Ignorar o erro e avançar para o conteúdo seguinte","Reduzir a nota do aluno sem qualquer explicação"]},
+  {p:"A finalidade da resolução de problemas como metodologia no ensino da Matemática", r:"Desenvolver o raciocínio lógico e a capacidade de aplicar conceitos a situações novas", erradas:["Apenas avaliar se o aluno decorou fórmulas","Substituir a necessidade de explicar a teoria","Servir unicamente como exercício de casa"]},
+];
+function genMetodologiaMatematica(){
+  const item = pick(METOD_MAT);
+  const q = `${item.p} é:`;
+  const opts = buildOptionsFixed(item.r, item.erradas);
+  return {cat:"metmat", m:"Metodologia da Matemática", q, o:opts.o, c:opts.c,
+    e:`${item.p} é: ${item.r}.`};
+}
+
+// ---------- METODOLOGIA DA LÍNGUA PORTUGUESA ----------
+const METOD_PORT = [
+  {p:"O método mais indicado para a fase inicial de alfabetização, associando sons às letras", r:"Método fónico (ou fonético), que trabalha a relação entre som e grafia", erradas:["Método exclusivamente da memorização de textos inteiros","Método baseado apenas em cópia repetitiva sem compreensão","Ensino da gramática formal antes da leitura"]},
+  {p:"A finalidade da leitura em voz alta feita pelo professor na sala de aula", r:"Desenvolver a fluência, a entoação e a compreensão auditiva dos alunos", erradas:["Apenas preencher o tempo da aula","Substituir a necessidade de os alunos lerem sozinhos","Avaliar exclusivamente a caligrafia dos alunos"]},
+  {p:"A abordagem recomendada para o ensino da produção textual", r:"Trabalhar o texto como processo: planificação, textualização e revisão", erradas:["Pedir apenas o texto final, sem etapas intermédias","Corrigir só a ortografia, ignorando as ideias","Exigir que o aluno copie um modelo sem alterações"]},
+  {p:"A vantagem de ensinar gramática de forma contextualizada, a partir de textos", r:"Ajuda o aluno a perceber a função da regra gramatical na comunicação real", erradas:["Torna o ensino da gramática mais confuso e sem sentido","Substitui a necessidade de qualquer exercício de fixação","Serve apenas para os alunos mais avançados"]},
+  {p:"A estratégia mais adequada perante um aluno com dificuldades de leitura", r:"Diversificar as estratégias de leitura e dar acompanhamento individualizado", erradas:["Avançar no programa sem qualquer adaptação","Reduzir o tempo de leitura do aluno na sala de aula","Atribuir apenas exercícios de cópia repetitiva"]},
+  {p:"O objetivo principal da interpretação de texto no ensino da Língua Portuguesa", r:"Desenvolver a compreensão crítica e a capacidade de inferir sentidos no texto", erradas:["Verificar apenas se o aluno decorou o texto","Avaliar unicamente a velocidade de leitura","Substituir a necessidade de compreender o vocabulário"]},
+  {p:"O papel do vocabulário prévio na compreensão de um texto", r:"É essencial: quanto mais vocabulário o aluno conhece, melhor compreende o texto", erradas:["É irrelevante para a compreensão da leitura","Só importa na escrita, nunca na leitura","Deve ser evitado para não confundir o aluno"]},
+];
+function genMetodologiaPortugues(){
+  const item = pick(METOD_PORT);
+  const q = `${item.p} é:`;
+  const opts = buildOptionsFixed(item.r, item.erradas);
+  return {cat:"metport", m:"Metodologia da Língua Portuguesa", q, o:opts.o, c:opts.c,
+    e:`${item.p} é: ${item.r}.`};
+}
+
+const CATGENS = {
+  alg:  [genEqParen, genEqFrac, genQuadratic, genSystem, genAgeProblem],
+  pot:  [genPowerMix, genRootProduct],
+  num:  [genComplexExpr],
+  perc: [genReversePercent, genSimpleInterest],
+  prop: [genCompoundRule, genSimpleRule, genWorkRate],
+  seq:  [genPA, genPG],
+  est:  [genWeightedAvg],
+  geo:  [genGeoRectangle, genGeoVolume],
+  port: [genAposto, genVocativo, genObjDireto, genObjIndireto, genPredicativo, genSujeitoComposto,
+         genConcordanciaHaver, genConcordanciaFazer, genPluralIrregular, genRegencia, genConjuncao],
+  met:  [genPedagogoAutor, genPedagogoConceito, genAvaliacaoTipo, genMetodologiaFato],
+  metmat: [genMetodologiaMatematica],
+  metport: [genMetodologiaPortugues],
+  leg:  [genLegislacaoFato],
+};
+CATGENS.all = Object.values(CATGENS).flat();
+CATGENS.mat = [genEqParen, genEqFrac, genQuadratic, genSystem, genAgeProblem, genPowerMix, genRootProduct,
+  genComplexExpr, genReversePercent, genSimpleInterest, genCompoundRule, genSimpleRule, genWorkRate,
+  genPA, genPG, genWeightedAvg, genGeoRectangle, genGeoVolume];
+
+const CATS = {
+  all:  {label:"Todas as matérias (difícil)", icon:"🔥", color:"var(--c-all)"},
+  mat:  {label:"Matemática — Tudo",           icon:"➗", color:"var(--c-alg)"},
+  alg:  {label:"Álgebra e Equações",        icon:"🧮", color:"var(--c-alg)"},
+  pot:  {label:"Potenciação e Radiciação",  icon:"√",  color:"var(--c-pot)"},
+  num:  {label:"Expressões Numéricas",      icon:"🔢", color:"var(--c-num)"},
+  perc: {label:"Percentagens e Finanças",   icon:"💰", color:"var(--c-perc)"},
+  prop: {label:"Proporcionalidade",         icon:"⚖️", color:"var(--c-prop)"},
+  seq:  {label:"Sequências (PA / PG)",      icon:"🔁", color:"var(--c-seq)"},
+  est:  {label:"Estatística",               icon:"📊", color:"var(--c-est)"},
+  geo:  {label:"Geometria",                 icon:"📐", color:"var(--c-geo)"},
+  port: {label:"Língua Portuguesa",         icon:"🖋️", color:"var(--c-port)"},
+  met:  {label:"Metodologia Geral / Didática", icon:"🧭", color:"var(--c-met)"},
+  metmat: {label:"Metodologia da Matemática", icon:"🧮", color:"var(--c-met)"},
+  metport: {label:"Metodologia da Língua Portuguesa", icon:"🖋️", color:"var(--c-met)"},
+  leg:  {label:"Legislação Educativa",      icon:"⚖️", color:"var(--c-leg)"},
+};
+const QTY_OPTIONS = [10,20,50,100,1000];
+
+// ---------- ESTADO ----------
+let selectedCat = 'all';
+let selectedQty = 20;
+let pool = [];
+let order = [];
+let current = 0;
+let score = 0;
+let answered = false;
+let wrongList = [];
+let soundOn = true;
+
+const startScreen = document.getElementById('startScreen');
+const quizScreen = document.getElementById('quizScreen');
+const resultScreen = document.getElementById('resultScreen');
+const soundBtn = document.getElementById('soundBtn');
+const catGrid = document.getElementById('catGrid');
+const qtyRow = document.getElementById('qtyRow');
+
+function buildCatGrid(){
+  catGrid.innerHTML = '';
+  Object.keys(CATS).forEach(key => {
+    const info = CATS[key];
+    const card = document.createElement('div');
+    card.className = 'cat-card' + (key === selectedCat ? ' active' : '');
+    card.innerHTML = `
+      <div class="cat-dot" style="background:${info.color}22; color:${info.color};">${info.icon}</div>
+      <div class="cat-info">
+        <div class="t">${info.label}</div>
+        <div class="s">Infinitas variações</div>
+      </div>
+      <div class="cat-check"></div>
+    `;
+    card.addEventListener('click', () => {
+      selectedCat = key;
+      ensureAudio(); beep('click');
+      buildCatGrid();
+    });
+    catGrid.appendChild(card);
+  });
+}
+function buildQtyRow(){
+  qtyRow.innerHTML = '';
+  QTY_OPTIONS.forEach(n => {
+    const pill = document.createElement('div');
+    pill.className = 'qty-pill' + (n === selectedQty ? ' active' : '');
+    pill.innerHTML = n === 1000 ? `${n}<small>Maratona</small>` : `${n}<small>perguntas</small>`;
+    pill.addEventListener('click', () => {
+      selectedQty = n;
+      ensureAudio(); beep('click');
+      buildQtyRow();
+    });
+    qtyRow.appendChild(pill);
+  });
+}
+buildCatGrid();
+buildQtyRow();
+
+soundBtn.addEventListener('click', () => {
+  soundOn = !soundOn;
+  soundBtn.textContent = soundOn ? '🔊' : '🔇';
+  if(soundOn) beep('click');
+});
+
+// ---------- SOM ----------
+let audioCtx = null;
+let audioUnlocked = false;
+function ensureAudio(){
+  if(!audioCtx){
+    try{ audioCtx = new (window.AudioContext || window.webkitAudioContext)(); }
+    catch(e){ soundOn = false; return; }
+  }
+  if(audioCtx.state === 'suspended'){ audioCtx.resume(); }
+  if(!audioUnlocked){
+    try{
+      const buffer = audioCtx.createBuffer(1, 1, 22050);
+      const src = audioCtx.createBufferSource();
+      src.buffer = buffer;
+      src.connect(audioCtx.destination);
+      src.start(0);
+      audioUnlocked = true;
+    }catch(e){}
+  }
+}
+['touchend','mousedown'].forEach(evt => {
+  document.addEventListener(evt, function unlock(){ ensureAudio(); }, {once:true, passive:true});
+});
+function tone(freq, start, dur, type, gainVal){
+  const o = audioCtx.createOscillator();
+  const g = audioCtx.createGain();
+  o.type = type || 'sine';
+  o.frequency.setValueAtTime(freq, audioCtx.currentTime + start);
+  g.gain.setValueAtTime(0, audioCtx.currentTime + start);
+  g.gain.linearRampToValueAtTime(gainVal || 0.15, audioCtx.currentTime + start + 0.02);
+  g.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + start + dur);
+  o.connect(g); g.connect(audioCtx.destination);
+  o.start(audioCtx.currentTime + start);
+  o.stop(audioCtx.currentTime + start + dur + 0.05);
+}
+function beep(kind){
+  if(!soundOn) return;
+  ensureAudio();
+  if(!audioCtx) return;
+  if(kind === 'correct'){ tone(587.33,0,0.12,'triangle'); tone(880,0.1,0.18,'triangle'); }
+  else if(kind === 'wrong'){ tone(220,0,0.22,'sawtooth',0.10); }
+  else if(kind === 'click'){ tone(700,0,0.06,'sine',0.08); }
+  else if(kind === 'finish'){ tone(523.25,0,0.14,'triangle'); tone(659.25,0.12,0.14,'triangle'); tone(783.99,0.24,0.22,'triangle'); }
+}
+
+// ---------- NAVEGAÇÃO ----------
+function showScreen(el){
+  [startScreen, quizScreen, resultScreen].forEach(s => s.classList.remove('active'));
+  el.classList.add('active');
+}
+
+function generatePool(cat, count){
+  const gens = CATGENS[cat];
+  const items = [];
+  for(let i=0;i<count;i++){
+    const gen = pick(gens);
+    items.push(gen());
+  }
+  return items;
+}
+
+function startQuiz(){
+  pool = generatePool(selectedCat, selectedQty);
+  order = pool.map((_,i)=>i);
+  current = 0; score = 0; wrongList = [];
+  document.getElementById('qTotal').textContent = order.length;
+  showScreen(quizScreen);
+  renderQuestion();
+}
+
+document.getElementById('startBtn').addEventListener('click', () => {
+  ensureAudio(); beep('click');
+  startQuiz();
+});
+document.getElementById('quitBtn').addEventListener('click', () => {
+  beep('click'); buildCatGrid(); buildQtyRow(); showScreen(startScreen);
+});
+document.getElementById('homeBtn').addEventListener('click', () => {
+  beep('click'); buildCatGrid(); buildQtyRow(); showScreen(startScreen);
+});
+
+function renderQuestion(){
+  answered = false;
+  const idx = order[current];
+  const item = pool[idx];
+  const info = CATS[item.cat];
+
+  document.getElementById('qIndex').textContent = current + 1;
+  document.getElementById('qScore').textContent = score;
+  document.getElementById('progressFill').style.width = ((current) / order.length * 100) + '%';
+
+  const chip = document.getElementById('moduleChip');
+  chip.textContent = (info ? info.icon + ' ' : '') + item.m;
+  chip.style.background = info ? info.color : 'var(--gold)';
+
+  document.getElementById('qText').textContent = item.q;
+
+  const wrap = document.getElementById('optionsWrap');
+  wrap.innerHTML = '';
+  const letters = ['A','B','C','D'];
+  item.o.forEach((optText, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'opt';
+    btn.innerHTML = `<span class="letter">${letters[i]}</span><span>${optText}</span>`;
+    btn.addEventListener('click', () => selectOption(i, item));
+    wrap.appendChild(btn);
+  });
+
+  const box = document.getElementById('explainBox');
+  box.className = 'explain';
+  box.textContent = '';
+  document.getElementById('nextBtn').classList.remove('show');
+}
+
+function selectOption(i, item){
+  if(answered) return;
+  answered = true;
+  ensureAudio();
+  const opts = document.querySelectorAll('.opt');
+  opts.forEach(o => o.classList.add('disabled'));
+
+  const correct = i === item.c;
+  opts[i].classList.add(correct ? 'correct' : 'wrong');
+  if(!correct) opts[item.c].classList.add('correct');
+
+  const box = document.getElementById('explainBox');
+  box.classList.add('show', correct ? 'ok' : 'no');
+  box.textContent = (correct ? '✅ Certo! ' : '❌ Não é essa. ') + item.e;
+
+  if(correct){ score++; beep('correct'); }
+  else { wrongList.push(item); beep('wrong'); }
+  document.getElementById('qScore').textContent = score;
+  document.getElementById('nextBtn').classList.add('show');
+}
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+  beep('click');
+  current++;
+  if(current >= order.length){ finishQuiz(); }
+  else { renderQuestion(); }
+});
+
+function finishQuiz(){
+  document.getElementById('progressFill').style.width = '100%';
+  beep('finish');
+  const pct = Math.round((score / order.length) * 100);
+  document.getElementById('catLabel').textContent = CATS[selectedCat].icon + ' ' + CATS[selectedCat].label;
+  document.getElementById('resultPct').textContent = pct;
+  document.getElementById('resultRaw').textContent = `${score} de ${order.length} corretas`;
+  document.getElementById('hitCount').textContent = score;
+  document.getElementById('missCount').textContent = order.length - score;
+
+  let medal='🎓', title='Resultado', msg='';
+  if(pct >= 90){ medal='🏆'; title='Excelente!'; msg='Domina muito bem estes conteúdos difíceis. Nível avançado confirmado.'; }
+  else if(pct >= 70){ medal='🎓'; title='Muito bom!'; msg='Bom desempenho num quiz nada fácil. Reveja os poucos erros e repita.'; }
+  else if(pct >= 50){ medal='📘'; title='Continue a estudar'; msg='Já tem base, mas este nível exige mais prática. Reveja os módulos com mais erros.'; }
+  else { medal='✏️'; title='Vamos treinar mais'; msg='Estes exercícios são exigentes de propósito. Reveja com calma e tente novamente.'; }
+
+  document.getElementById('medal').textContent = medal;
+  document.getElementById('resultTitle').textContent = title;
+  document.getElementById('resultMsg').textContent = msg;
+
+  const reviewBtn = document.getElementById('reviewBtn');
+  reviewBtn.style.display = wrongList.length ? 'block' : 'none';
+
+  showScreen(resultScreen);
+}
+
+document.getElementById('retryBtn').addEventListener('click', () => {
+  beep('click'); startQuiz();
+});
+document.getElementById('reviewBtn').addEventListener('click', () => {
+  beep('click');
+  const lines = wrongList.map((it, n) => `${n+1}. [${it.m}] ${it.q}\nResposta certa: ${it.o[it.c]}`).join('\n\n');
+  alert('Perguntas para rever:\n\n' + lines);
+});
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js').catch(()=>{});
+  });
+}
+</script>
+</body>
+</html>
